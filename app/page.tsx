@@ -12,11 +12,11 @@ export default function Page() {
       <ResizablePanelGroup
         direction="horizontal"
       >
-        <ResizablePanel defaultSize={25} minSize={22}>
+        <ResizablePanel defaultSize={25} minSize={20}>
           <AppSidebar />
         </ResizablePanel>
         <ResizableHandle withHandle />
-        <ResizablePanel defaultSize={75} minSize={72}>
+        <ResizablePanel defaultSize={75} minSize={70}>
           <div className="flex h-full items-center justify-center p-6">
             <span className="font-semibold">Content</span>
           </div>
